@@ -1,0 +1,487 @@
+body {
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(255, 255, 255);
+}
+/*Styling the home icon*/
+.fa-house {
+  background-color: #14213d;
+  color: #ffffff;
+  padding: 6px 1167px 6px 12px;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+.fa-house:hover {
+  color: #bea77b;
+}
+/*The text on the cover image*/
+h1 {
+  color: #14213d;
+  text-align: center;
+  padding: 50px;
+}
+h2 {
+  color: #14213d;
+  text-align: center;
+}
+/*The cover image behind the text*/
+.text-container {
+  background-image: url("../images/coverphoto6.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.image-container {
+  margin-top: 40px;
+  display: flex;
+}
+.image-container img {
+  width: 312px;
+  height: auto;
+}
+.genres {
+  display: flex;
+  gap: 20px;
+}
+.genres:hover {
+  transform: scale(1);
+  color: #748ab2;
+}
+.genres .car {
+  text-align: center;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-right: 220px;
+  color: rgb(0, 0, 0);
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  transition: color 0.3s, transform 0.3s;
+}
+.genres .car:hover {
+  color: rgb(132, 105, 58);
+  text-shadow: 1px black;
+  transform: scale(1.1);
+}
+.genres .nature {
+  text-align: center;
+  text-decoration: none;
+  margin-right: 235px;
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  transition: color 0.3s, transform 0.3s;
+}
+.genres .nature:hover {
+  color: rgb(132, 105, 58);
+  text-shadow: 1px black;
+  transform: scale(1.1);
+}
+.genres .people {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  transition: color 0.3s, transform 0.3s;
+}
+.genres .people:hover {
+  color: rgb(132, 105, 58);
+  text-shadow: 1px black;
+  transform: scale(1.1);
+}
+.genres .astro {
+  text-decoration: none;
+  text-align: center;
+  margin-right: 200px;
+  color: rgb(0, 0, 0);
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  transition: color 0.3s, transform 0.3s;
+}
+.genres .astro:hover {
+  color: rgb(132, 105, 58);
+  text-shadow: 1px black;
+  transform: scale(1.1);
+}
+
+/*credits for automobile*/
+.cred {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 100px;
+  margin-right: 117px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred1 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 100px;
+  margin-right: 101px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred2 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 90px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred3 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 219px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+/*credits for nature*/
+.cred4 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 100px;
+  margin-right: 117px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred5 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 125px;
+  margin-right: 101px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred5:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred6 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 143px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred6:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred7 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 219px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred7:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+/*Credits for people*/
+.cred8 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 90px;
+  margin-right: 93px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred8:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred9 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 120px;
+  margin-right: 101px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred9:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred10 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 100px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred10:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred11 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 220px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred11:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+/*Credits for astrophotography*/
+.cred12 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 110px;
+  margin-right: 93px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred12:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred13 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 140px;
+  margin-right: 101px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred13:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred14 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 120px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred14:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.cred15 {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(183, 139, 106);
+  margin-left: 210px;
+  margin-top: 5px;
+  border-radius: 3px;
+  transition: color 0.3s, transform 0.3s;
+}
+.cred15:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bc9863;
+  box-shadow: 1px 1px rgb(114, 113, 111);
+}
+.desc {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  padding: 3px 0 3px 0;
+  margin-left: 430px;
+  margin-right: 430px;
+  transition: color 0.3s, transform 0.3s;
+  border-radius: 4px;
+}
+.desc:hover {
+  color: #d39859;
+  cursor: pointer;
+  transform: scale(1.06);
+}
+.cover {
+  float: none;
+  display: flex;
+  height: 510px;
+}
+.cover1 {
+  width: 623px;
+  margin-left: 313px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.picstyle {
+  margin-top: 40px;
+  display: flex;
+}
+.picstyle img {
+  width: 312px;
+  height: auto;
+}
+.picstyle1 {
+  margin-top: 40px;
+  display: flex;
+}
+.picstyle1 img {
+  width: 312px;
+  height: auto;
+}
+.newtab {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 0px;
+  margin-left: 500px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+.newtab:hover {
+  color: #55388e;
+  transform: scale(1.05);
+}
+footer .logo {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  justify-content: stretch;
+  font-size: 15px;
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: #14213d;
+  padding: 10px 0px 5px 0px;
+  margin-bottom: 0;
+}
+footer {
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: #14213d;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 30px;
+  margin-bottom: 14px;
+  margin-top: 8px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.social .icon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+
+.social .icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,295 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* scroll-behavior: smooth; */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #0c093c;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #14213d;
+  padding: 15px 30px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin: 0 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.3s, color 0.3s;
+}
+header a:hover {
+  color: #d0b8e6;
+  transform: scale(1.05);
+}
+
+/* Dropdown menu's CSS starts from here */
+
+.newtab {
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s;
+  font-size: 17px;
+}
+.newtab:hover {
+  background-color: #d0b8e6;
+  color: #14213d;
+  transform: scale(1.05);
+}
+
+.dropdown .button {
+  color: #ffffff;
+  background-color: #14213d;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s;
+}
+
+.dropdown:hover button {
+  color: #d0b8e6;
+  transform: scale(1.1);
+}
+
+.dropdown .categories {
+  display: none;
+  color: #ffffff;
+  background-color: #14213d;
+  text-decoration: none;
+  padding: 8px 10px;
+  position: absolute;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.4s;
+}
+
+.dropdown .categories:hover {
+  color: #14213d;
+  transform: scale(1.1);
+  background-color: #d0b8e6;
+}
+
+.dropdown:hover .categories {
+  display: block;
+}
+
+/* Dropdown menu CSS ends here*/
+
+header .sign-in {
+  color: white;
+  transition: all 0.3s ease;
+}
+header .sign-in:hover {
+  color: #d0b8e6;
+  transform: scale(1.05);
+}
+
+
+.content {
+  height: 400px;
+  justify-content: center;
+  background-image: url("../images/coverphoto5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #14213d;
+  text-align: right;
+  padding: 80px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+#Reviews {
+  height: 500px;
+  background-color: #14213d;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 0 0 0;
+}
+
+#About {
+  height: 600px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #14213d;
+}
+
+.about-us {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about-us span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.about-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.about-us ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.about-us ul li span {
+  font-weight: bold;
+  color: #333;
+}
+
+.about-us ul li span:hover {
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+#Contact {
+  height: 300px;
+  background-color: #14213d;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.weblogo {
+  height: 200px;
+  max-width: 240px;
+  border: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.phone {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+}
+.email {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  transition: color 0.3s, transform 0.3s;
+  padding: 0;
+}
+.email:hover {
+  color: #d0b8e6;
+  transform: scale(1.01);
+}
+.socials {
+  text-align: center;
+  margin-left: 50px;
+  text-decoration: none;
+}
+.social {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.handle {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s, transform 0.3s;
+}
+.handle:hover {
+  color: #d0b8e6;
+  transform: scale(1.1);
+}
+.social .icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.social .icon:hover {
+  transform: scale(1.2);
+}
+.form {
+  text-align: right;
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  margin-left: 120px;
+  margin-top: 50px;
+  font-size: 30px;
+  transition: color 0.3s, transform 0.3s;
+}
+.form:hover {
+  color: #d0b8e6;
+  transform: scale(1.1);
+}
+.footer {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 370px;
+  color: #14213d;
+}
+#About span {
+  font-weight: bold;
+}
